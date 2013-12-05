@@ -9,13 +9,14 @@ function buscaralumnos(Gpo)
                          url: "http://" + IP + "/lista/agregar.php",
                          data: datos
          }).done(function(msg){
-                 if(msg=="*" || msg==null)
-                 {alert("No se encontraron alumnos en ese grupo");
+                 if (msg=="*" || msg==null)
+                 { 
+				  alert("No se encontraron alumnos en ese grupo");
                  }
                  else
                  {
                          alert(msg);
- OAlumno=jQuery.parseJSON(JSON.stringify(msg));
+                        var OAlumno=jQuery.parseJSON(JSON.stringify(msg));
                          alert(OAlumno.alumnos[0].Nombre);
                  }
          });
