@@ -17,11 +17,11 @@ function buscaralumnos(Gpo)
                  {
                          alert(msg);
                        var OAlumno = jQuery.parseJSON(msg);
-alert(					   OAlumno.alumnos.length);
+                    alert(OAlumno);
 /*for (var i=0;i<OAlumno.alumnos.length;i++)
 { 
 alert (OAlumno.alumnos[i].Nombre);
-}*/s
+}*/
 						
                         //alert (OAlumno.alumnos[1].Nombre);
                         //alert (OAlumno.alumnos[2].Nombre);
