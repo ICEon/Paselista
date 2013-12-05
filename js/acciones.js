@@ -17,7 +17,12 @@ function buscaralumnos(Gpo)
                  {
                          alert(msg);
                        var OAlumno = jQuery.parseJSON(msg);
+
 						alert (OAlumno.alumnos[0].Nombre);
+                        alert (OAlumno.alumnos[1].Nombre);
+                        alert (OAlumno.alumnos[2].Nombre);
+                        alert (OAlumno.alumnos[3].Nombre);
+                        alert (OAlumno.alumnos[4].Nombre);
 //                         alert(OAlumno.alumnos[0].Nombre);
                  }
          });
